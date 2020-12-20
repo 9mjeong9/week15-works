@@ -1,0 +1,223 @@
+/*.wrapper {
+	width:700px;
+	margin:50px auto;
+}
+
+.subject{
+	font-size:28px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom:30px;
+}
+
+.button {
+	width:100px;
+	padding:10px;
+	text-align: center;
+	background-color: red;
+	color:white;
+	margin:5px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.button2 {
+	width:100px;
+	padding:10px;
+	text-align: center;
+	background-color: red;
+	color:white;
+	margin:5px;
+	display: inline-block;
+	cursor: pointer;
+}*/
+
+.st10 {
+	animation-name: blackline;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-delay: 1.5s;
+
+}
+
+@keyframes blackline {
+  0% {transform: translate(0%);}
+  50%{transform: translate(50%,-30%);}
+  100%{transform: translate(0%);}
+}
+
+.twist {
+	animation-name: twist;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes twist {
+  0% {transform: translate(0%);}
+  25%{transform: translateY(-70%) rotate(220deg) scale(2.0);}
+  50%{transform: translate(50%,-30%);}
+  80%{transform: scale(0.8) scale(2.2);}
+  100%{transform: translate(0%);}
+}
+
+.t2 {
+	animation-name: yellowt;
+	animation-duration: 2.2s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes yellowt {
+  0% {transform: translate(0%);}
+  25%{transform: translateY(-70%) rotate(-50deg);}
+  50%{transform: translate(90%,30%) scale(2.6);}
+  70%{transform: translate(30%,90%);}
+  100%{transform: translate(0%);}
+}
+
+
+.blackp {
+	animation-name: blackp;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes blackp {
+  0% {transform: translate(0%);}
+  25%{transform: translate(50%,-30%) rotate(-20deg);}
+  50%{transform: translate(10%,30%);}
+  70%{transform: translate(30%,20%);}
+  100%{transform: translate(0%);}
+}
+
+.threesc0 {
+	animation-name: redsc;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes redsc {
+	0%{transform: translate(0%);}
+	50%{transform: translateX(-50%);}
+	100%{transform: translate(0%);}
+}
+
+.threesc2 {
+	animation-name: greensc;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes greensc {
+	0%{transform: translate(0%);}
+	50%{transform: translateX(50%);}
+	100%{transform: translate(0%);}
+}
+
+.cir3 {
+	transform-origin: 100% 0%;
+	animation-name: whitecir;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes whitecir {
+	0%{transform: translate(0,5%) scale(1.0);}
+	10%{transform: translate(0,10%) scale(0.0);}
+	20%{transform: translate(0,30%) scale(1.0);}
+	30%{transform: translate(0,50%) scale(0.0);}
+	40%{transform: translate(0,70%) scale(1.0);}
+	50%{transform: translate(0,90%) scale(0.0);}
+	60%{transform: translate(0,50%) scale(1.0);}
+	70%{transform: translate(0,30%) scale(0.0);}
+	90%{transform: translate(0,10%) scale(1.0);}
+	100%{transform: translate(0,5%) scale(0.0);}
+}
+
+.brl {
+	animation-name: brownline;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes brownline {
+	0%{transform: translate(0%);}
+	50%{transform: translateX(50%);}
+	100%{transform: translate(0%);}
+}
+
+.rgy0 {
+	animation-name: greencircle;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes greencircle {
+	0%{transform:  rotate(0deg);}
+	50%{transform: rotateX(180deg);}
+	80%{transform: rotateY(-90deg);}
+	100%{transform: rotate(0);}
+}
+
+.rgy0 {
+	animation-name: greencircle;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes greencircle {
+	0%{transform:  rotate(0deg);}
+	50%{transform: rotateX(180deg);}
+	80%{transform: rotateY(-90deg);}
+	100%{transform: rotate(0);}
+}
+
+.cc0 {
+	animation-name: whitec;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes whitec {
+	0%{transform: scale(0.0) transform-origin: 85% 0%;}
+	50%{transform: scale(2.0);}
+	100%{transform: scale(0.0)transform-origin: 85% 0%;}
+}
+
+.cc1 {
+	animation-name: whitec;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes whitec {
+	0%{transform: scale(0.0) transform-origin: 85% 0%;}
+	50%{transform: scale(2.0);}
+	100%{transform: scale(0.0)transform-origin: 85% 0%;}
+}
+
+.ci4 {
+	transform-origin: 15% 25%;
+	transition-duration: 1s;
+}
+.ci4:hover{
+	transform: scale(2.0);
+}
+
+.c0 {
+	transform-origin: 85% 80%;
+	transition-duration: 1s;
+}
+.c0:hover{
+	transform: scale(2.0);
+}
+
+.rgy2 {
+	transform-origin: 85% 30%;
+	transition-duration: 3s;
+}
+.rgy2:hover{
+	transform: rotate(360deg);
+}
